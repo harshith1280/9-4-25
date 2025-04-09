@@ -1,0 +1,13 @@
+<div class="profile-container">
+  <h2>User Profile</h2>
+  <label>Name:</label>
+  <input [(ngModel)]="user.name" />
+
+  <label>Email:</label>
+  <input [(ngModel)]="user.email" />
+
+  <label>Phone:</label>
+  <input [(ngModel)]="user.phone" />
+
+  <button (click)="updateProfile()">Update Profile</button>
+</div>
